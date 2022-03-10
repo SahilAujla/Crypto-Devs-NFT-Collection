@@ -355,7 +355,14 @@ export default function Home() {
     <div>
       <Head>
         <title>Crypto Devs</title>
-        <meta name="description" content="Whitelist-Dapp" />
+        <meta
+          name="description"
+          content="Crypto Devs is an NFT collection for developers in the crypto space."
+        />
+        <meta
+          property="og:image"
+          content="https://user-images.githubusercontent.com/83442423/157599572-109fe779-5955-4a61-b94e-f90c2627e1b2.png"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
